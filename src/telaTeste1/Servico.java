@@ -47,10 +47,9 @@ public class Servico extends javax.swing.JFrame {
         M13 = new javax.swing.JButton();
         jPanel8 = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
         jPanel7 = new javax.swing.JPanel();
-        botaoCardapioS = new javax.swing.JButton();
         botaSairS = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
         jDesktopPane1 = new javax.swing.JDesktopPane();
         jPanel5 = new javax.swing.JPanel();
         jPanel6 = new javax.swing.JPanel();
@@ -103,16 +102,31 @@ public class Servico extends javax.swing.JFrame {
         M03.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 14)); // NOI18N
         M03.setForeground(new java.awt.Color(51, 0, 0));
         M03.setText("M03");
+        M03.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                M03ActionPerformed(evt);
+            }
+        });
 
         M04.setBackground(new java.awt.Color(0, 204, 51));
         M04.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 14)); // NOI18N
         M04.setForeground(new java.awt.Color(51, 0, 0));
         M04.setText("M04");
+        M04.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                M04ActionPerformed(evt);
+            }
+        });
 
         M02.setBackground(new java.awt.Color(0, 204, 51));
         M02.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 14)); // NOI18N
         M02.setForeground(new java.awt.Color(51, 0, 0));
         M02.setText("M02");
+        M02.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                M02ActionPerformed(evt);
+            }
+        });
 
         M05.setBackground(new java.awt.Color(0, 204, 51));
         M05.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 14)); // NOI18N
@@ -128,21 +142,41 @@ public class Servico extends javax.swing.JFrame {
         M06.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 14)); // NOI18N
         M06.setForeground(new java.awt.Color(51, 0, 0));
         M06.setText("M06");
+        M06.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                M06ActionPerformed(evt);
+            }
+        });
 
         M07.setBackground(new java.awt.Color(0, 204, 51));
         M07.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 14)); // NOI18N
         M07.setForeground(new java.awt.Color(51, 0, 0));
         M07.setText("M07");
+        M07.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                M07ActionPerformed(evt);
+            }
+        });
 
         M09.setBackground(new java.awt.Color(0, 204, 51));
         M09.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 14)); // NOI18N
         M09.setForeground(new java.awt.Color(51, 0, 0));
         M09.setText("M09");
+        M09.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                M09ActionPerformed(evt);
+            }
+        });
 
         M08.setBackground(new java.awt.Color(0, 204, 51));
         M08.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 14)); // NOI18N
         M08.setForeground(new java.awt.Color(51, 0, 0));
         M08.setText("M08");
+        M08.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                M08ActionPerformed(evt);
+            }
+        });
 
         M10.setBackground(new java.awt.Color(0, 204, 51));
         M10.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 14)); // NOI18N
@@ -216,10 +250,7 @@ public class Servico extends javax.swing.JFrame {
 
         jPanel8.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\jvale\\Pictures\\icons8-cowboy-51.png")); // NOI18N
-
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\jvale\\Downloads\\ad890d221eae7c4c30600a7177af9905-wild-west-wheel-icon.png")); // NOI18N
-        jLabel5.setText("jLabel5");
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/icons8-cowboy-51.png"))); // NOI18N
 
         jPanel7.setBackground(new java.awt.Color(255, 204, 0));
 
@@ -234,12 +265,6 @@ public class Servico extends javax.swing.JFrame {
             .addGap(0, 55, Short.MAX_VALUE)
         );
 
-        botaoCardapioS.setBackground(new java.awt.Color(51, 0, 0));
-        botaoCardapioS.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 18)); // NOI18N
-        botaoCardapioS.setForeground(new java.awt.Color(255, 204, 0));
-        botaoCardapioS.setIcon(new javax.swing.ImageIcon("C:\\Users\\jvale\\Downloads\\icons8-comida-24.png")); // NOI18N
-        botaoCardapioS.setText("CARDÁPIO");
-
         botaSairS.setBackground(new java.awt.Color(51, 0, 0));
         botaSairS.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 18)); // NOI18N
         botaSairS.setForeground(new java.awt.Color(255, 204, 0));
@@ -250,39 +275,39 @@ public class Servico extends javax.swing.JFrame {
             }
         });
 
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\jvale\\Downloads\\ad890d221eae7c4c30600a7177af9905-wild-west-wheel-icon.png")); // NOI18N
+        jLabel2.setText("jLabel2");
+
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
         jPanel8Layout.setHorizontalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                .addContainerGap(211, Short.MAX_VALUE)
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(botaoCardapioS, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                            .addComponent(jLabel6)
-                            .addGap(10, 10, 10))
-                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                            .addComponent(botaSairS, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(211, 211, 211)))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(botaSairS, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(155, 155, 155)
+                .addComponent(jLabel6)
+                .addGap(10, 10, 10))
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addGap(77, 77, 77)
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 494, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(74, Short.MAX_VALUE))
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 239, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
+                .addComponent(jLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 110, Short.MAX_VALUE)
-                .addComponent(botaoCardapioS, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(botaSairS, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(149, 149, 149)
-                .addComponent(jLabel6)
-                .addContainerGap())
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
+                        .addComponent(jLabel6)
+                        .addContainerGap())
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
+                        .addComponent(botaSairS, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(22, 22, 22))))
         );
 
         jDesktopPane1.setBackground(new java.awt.Color(255, 255, 255));
@@ -478,7 +503,6 @@ public class Servico extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap()
                 .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );
@@ -491,44 +515,72 @@ public class Servico extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void M10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_M10ActionPerformed
-        // TODO add your handling code here:
+        new Cardapio().setVisible(true); 
     }//GEN-LAST:event_M10ActionPerformed
 
     private void M11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_M11ActionPerformed
-        // TODO add your handling code here:
+        new Cardapio().setVisible(true); 
     }//GEN-LAST:event_M11ActionPerformed
 
     private void M12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_M12ActionPerformed
-        // TODO add your handling code here:
+        new Cardapio().setVisible(true); 
     }//GEN-LAST:event_M12ActionPerformed
 
     private void M16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_M16ActionPerformed
-        // TODO add your handling code here:
+        new Cardapio().setVisible(true); 
     }//GEN-LAST:event_M16ActionPerformed
 
     private void M15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_M15ActionPerformed
-        // TODO add your handling code here:
+        new Cardapio().setVisible(true); 
     }//GEN-LAST:event_M15ActionPerformed
 
     private void M14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_M14ActionPerformed
-        // TODO add your handling code here:
+        new Cardapio().setVisible(true); 
     }//GEN-LAST:event_M14ActionPerformed
 
     private void M13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_M13ActionPerformed
-        // TODO add your handling code here:
+        new Cardapio().setVisible(true); 
     }//GEN-LAST:event_M13ActionPerformed
 
     private void M01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_M01ActionPerformed
-        // TODO add your handling code here:
+        new Cardapio().setVisible(true); 
     }//GEN-LAST:event_M01ActionPerformed
 
     private void M05ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_M05ActionPerformed
-        // TODO add your handling code here:
+        new Cardapio().setVisible(true); 
     }//GEN-LAST:event_M05ActionPerformed
 
     private void botaSairSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaSairSActionPerformed
-        // TODO add your handling code here:
+        dispose();
     }//GEN-LAST:event_botaSairSActionPerformed
+
+    private void M02ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_M02ActionPerformed
+        new Cardapio().setVisible(true); 
+    }//GEN-LAST:event_M02ActionPerformed
+
+    private void M03ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_M03ActionPerformed
+        new Cardapio().setVisible(true); 
+    }//GEN-LAST:event_M03ActionPerformed
+
+    private void M04ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_M04ActionPerformed
+        new Cardapio().setVisible(true); 
+    }//GEN-LAST:event_M04ActionPerformed
+
+    private void M06ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_M06ActionPerformed
+        new Cardapio().setVisible(true); 
+    }//GEN-LAST:event_M06ActionPerformed
+
+    private void M07ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_M07ActionPerformed
+        new Cardapio().setVisible(true); 
+    }//GEN-LAST:event_M07ActionPerformed
+
+    private void M08ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_M08ActionPerformed
+        new Cardapio().setVisible(true); 
+    }//GEN-LAST:event_M08ActionPerformed
+
+    private void M09ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_M09ActionPerformed
+        new Cardapio().setVisible(true); 
+    }//GEN-LAST:event_M09ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -583,12 +635,11 @@ public class Servico extends javax.swing.JFrame {
     private javax.swing.JButton M15;
     private javax.swing.JButton M16;
     private javax.swing.JButton botaSairS;
-    private javax.swing.JButton botaoCardapioS;
     private javax.swing.JDesktopPane jDesktopPane1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
